@@ -1,0 +1,33 @@
+/* - Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+html {
+  font-size: 10px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(assets/background.jpg);
+  background-size: cover;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+}
+h1,
+#message-el,
+p {
+  font-family: "Playfair Display", serif;
+}
+
+h1 {
+  color: #ffd700;
+  font-size: 5.2rem;
+}
+
+#message-el {
+  color: #fffdd0;
+  font-size: 3.6rem;
+}
